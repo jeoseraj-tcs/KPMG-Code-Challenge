@@ -1,0 +1,1 @@
+Invoke-RestMethod -Headers @{"Metadata"="true"} -Method GET -NoProxy -Uri "http://xxx.xxx.xxx.xx/metadata/instance?api-version=2021-02-01" | ConvertTo-Json -Depth 64
